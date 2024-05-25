@@ -17,7 +17,7 @@ public class ConnectSQL {
         try {
             SQLServerDataSource ds = new SQLServerDataSource();
             ds.setUser("sa");
-            ds.setPassword("123456");
+            ds.setPassword("12345678");
             ds.setServerName("DESKTOP-EJIGPN3\\SQLEXPRESS");
             ds.setPortNumber(1433);
             ds.setDatabaseName("DTB");
